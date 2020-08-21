@@ -1,0 +1,69 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    max-width: 100%;
+}
+
+h1 {
+    font-family: 'Arial';
+    font-weight: lighter;
+    font-size: 50pt;
+}
+
+h2 {
+    font-family: 'Arial';
+    font-weight: lighter;
+    font-size: 30pt;
+}
+
+h3 {
+    font-family: 'Arial';
+    font-weight: lighter;
+    font-size: 22pt;
+}
+
+h4 {
+    font-family: 'Arial';
+    font-weight: lighter;
+    font-size: 18pt;
+}
+
+p {
+    font-family: 'Arial';
+    font-size: 13pt;
+}
+
+.page_wrapper {
+    width: 75%;
+    margin: auto;
+}
+
+.center {
+    text-align: center;
+}
+
+.goto_button {
+    box-shadow: 0px 1px 0px 0px #464646;
+    background: linear-gradient(to bottom, #464646 5%, #232424 100%);
+    background-color: #686a6b;
+    border-radius: 10px;
+    border: 1px solid #023c62;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 11px 23px;
+    text-decoration: none;
+    text-shadow: 0px -1px 0px #5b6178;
+    transition: 0.3s;
+}
+
+.goto_button:hover {
+    background: linear-gradient(to bottom, #232424 5%, #1e1f1f 100%);
+    background-color: #434444;
+    color: #7e7e7e;
+}
